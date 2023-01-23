@@ -22,7 +22,7 @@ console.log(message);
 
 let = weekDay = 'Quarta-feira';
 
-if (weekDay === 'Segunda-Feira' || weekDay === 'Terça-Feira' || weekDay === 'Quarta-feria' || weekDay === 'Quinta-feira' || weekDay === 'Sexta-Feira'){
+if (weekDay === 'Segunda-Feira' || weekDay === 'Terça-Feira' || weekDay === 'Quarta-feira' || weekDay === 'Quinta-feira' || weekDay === 'Sexta-Feira'){
  console.log('obaa, mais um dia de aprendizado na trybe');
 
 } else {
