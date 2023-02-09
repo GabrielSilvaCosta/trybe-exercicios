@@ -1,0 +1,15 @@
+h1{
+
+    color: blue;
+}
+body{
+    background-color: antiquewhite;
+
+}
+input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
