@@ -4,13 +4,13 @@ function myRemove(arr, item) { // argumentos
       if (item !== arr[index]) {
         //verifica se cada elemento do array é diferente do item fornecido como argumento. 
         //Se o elemento não for igual ao item, ele é adicionado ao novo array newArr
-        newArr.push(arr[index]);
+        newArrs.push(arr[index]);
       }
     }
-    return newArr;
+    return newArrs;
 //     No final, a função retorna o novo array newArrcontendo todos os elementos
 //      do array original arrque não são iguais ao item fornecido.
-} 
+   }
    module.exports = myRemove;
   
 //   A função myRemove(arr, item) recebe um array arr e retorna uma cópia desse array sem o elemento item, caso ele exista no array:
@@ -21,3 +21,4 @@ function myRemove(arr, item) { // argumentos
 // Verifique se a chamada myRemove([1, 2, 3, 4], 5) retorna o array esperado.
   
   // implemente seus testes aqui
+
