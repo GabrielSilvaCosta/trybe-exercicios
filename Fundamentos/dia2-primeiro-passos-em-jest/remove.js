@@ -10,7 +10,7 @@ function myRemove(arr, item) { // argumentos
     return newArr;
 //     No final, a função retorna o novo array newArrcontendo todos os elementos
 //      do array original arrque não são iguais ao item fornecido.
-}
+} 
    module.exports = myRemove;
   
 //   A função myRemove(arr, item) recebe um array arr e retorna uma cópia desse array sem o elemento item, caso ele exista no array:
