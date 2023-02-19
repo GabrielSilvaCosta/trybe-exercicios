@@ -4,10 +4,10 @@ function myRemove(arr, item) { // argumentos
       if (item !== arr[index]) {
         //verifica se cada elemento do array é diferente do item fornecido como argumento. 
         //Se o elemento não for igual ao item, ele é adicionado ao novo array newArr
-        newArrs.push(arr[index]);
+        newArr.push(arr[index]);
       }
     }
-    return newArrs;
+    return newArr;
 //     No final, a função retorna o novo array newArrcontendo todos os elementos
 //      do array original arrque não são iguais ao item fornecido.
    }
